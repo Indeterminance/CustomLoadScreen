@@ -2,7 +2,7 @@
 
 Custom Load Screens is a mod for Subnautica intended to bring back a bit of flavor to Subnautica's long loading time. After all, you may as well look at something nice while you wait for the game to load!
 
-This mod was originally created by EckoTheCat/kylinator25 as a QMod, but they've since moved on to other things. This updated fork aims to continue CLS' legacy, and also works with BepInEx, making this the **first version of CLS compatible with Subnautica's Large Living Update**.
+This mod was originally created by EckoTheCat/kylinator25 as a QMod, but they've since moved on to other things. This updated fork aims to continue CLS' legacy, and also works with BepInEx, making this the **first version of CLS compatible with Subnautica's Living Large Update**.
 
 # Important changes
  - A configuration file can be found in BepInEx's `config` directory after launching the game.
