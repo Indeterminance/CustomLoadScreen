@@ -12,7 +12,7 @@ namespace CustomLoadScreen
     public class CLS_Main : BaseUnityPlugin
     {
         // Mod info
-        private const string myGUID = "com.eckothebat.customloadscreen";
+        private const string myGUID = "com.indeterminance.customloadscreen";
         private const string pluginName = "Custom Load Screens";
         private const string versionString = "1.3.0";
 
