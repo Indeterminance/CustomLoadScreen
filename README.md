@@ -6,7 +6,7 @@ This mod was originally created by EckoTheCat/kylinator25 as a QMod, but they've
 
 # Important changes
  - A configuration file can be found in BepInEx's `config` directory after launching the game.
- - All loading screens are now stored in `Subnautica/loading_screens/` instead of `Subnautica/QMods/CustomLoadScreen/`.
+ - All loading screens are now stored in `Subnautica/BepInEx/plugins/CustomLoadScreen/loading_screens/` instead of `Subnautica/QMods/CustomLoadScreen/`.
 
 # Configuration
 

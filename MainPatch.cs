@@ -14,14 +14,16 @@ namespace CustomLoadScreen
         // Mod info
         private const string myGUID = "com.indeterminance.customloadscreen";
         private const string pluginName = "Custom Load Screens";
-        private const string versionString = "1.3.0";
+        private const string versionString = "1.3.1";
 
         // Harmony stuff
-        public static string screens_directory = Environment.CurrentDirectory + "\\loading_screens";
         private static readonly Harmony harmony = new Harmony(myGUID);
         public static ManualLogSource logger = new ManualLogSource(pluginName);
 
         // Loading screen data
+
+        public static string screens_chdir = "\\BepInEx\\plugins\\CustomLoadScreen\\loading_screens";
+        public static string screens_directory = Environment.CurrentDirectory + screens_chdir;
         public static System.Random rand = new System.Random();
         public static int currentImageChoice;
         public static List<string> images;
